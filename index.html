@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+    body{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh; 
+        justify-content: center;
+        background-image: url(white-cloud-blue-sky.jpg);
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        /*background-size: cover;*/
+        overflow: hidden;
+    }
+    .clear {
+        background-image: url(white-cloud-blue-sky.jpg);
+    }
+    .cloud {
+        background-image: url(cloud-blue-sky.jpg);
+    }
+    .haze {
+        background-image: url(ezgif-4-e69be0dd9e.jpg);
+    }
+
+    .rain {
+        background-image: url(rainclouds-rain-blue-sky_149267-652.jpg);
+    }
+</style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body id="bod">
+    <h1><u>WEATHER APP</u></h1>
+    <form id="weatherform" action="/" method="post">
+    <label for="cityInput">City Name : </label>
+    <input id="cityInput" type="text" name="cityName">
+    <br>
+    <button type="submit">SUBMIT</button>
+</form>
+<script src="app.js"></script>
+</body>
+</html>

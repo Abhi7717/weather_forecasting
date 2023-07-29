@@ -1,0 +1,26 @@
+    body{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh; 
+        justify-content: center;
+        background-image: url(cloud-blue-sky.jpg);
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        overflow: hidden;
+    }
+    .clear {
+        background-image: url(white-cloud-blue-sky.jpg);
+    }
+    .cloud {
+        background-image: url(cloud-blue-sky.jpg);
+    }
+    .haze {
+        background-image: url(ezgif-4-e69be0dd9e.jpg);
+    }
+
+    .rain {
+        background-image: url(rainclouds-rain-blue-sky_149267-652.jpg);
+    }
